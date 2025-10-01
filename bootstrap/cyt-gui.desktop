@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=CYT GUI
+Comment=Launch Chasing Your Tail (CYT)
+Exec=/home/kali/cyt/start_gui.sh
+Path=/home/kali/cyt
+Icon=/home/kali/cyt/cyt_ng_logo.png
+Terminal=false

@@ -1,0 +1,47 @@
+# === Python cruft ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+.env
+
+# === Logs & runtime output ===
+logs/
+reports/
+surveillance_reports/
+analysis_logs/
+*.log
+
+# === Databases & Kismet output ===
+kismet.db
+*.kismet
+*.kismet-journal
+
+# === Credentials & backups ===
+secure_credentials/encrypted_credentials.json
+secure_credentials/.encryption_key
+secure_credentials/backup*/
+config.json.bak
+config.json.save
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Ignore temp/backup scripts ===
+*.bak
+*.save
+
+# === Allow structure placeholders ===
+!logs/.gitkeep
+!reports/.gitkeep
+!surveillance_reports/.gitkeep
+!analysis_logs/.gitkeep
+
+# === Explicitly keep bootstrap & configs ===
+!/bootstrap/
+!/etc_kismet/
