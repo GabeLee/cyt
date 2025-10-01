@@ -45,3 +45,4 @@ Thumbs.db
 # === Explicitly keep bootstrap & configs ===
 !/bootstrap/
 !/etc_kismet/
+backups/
